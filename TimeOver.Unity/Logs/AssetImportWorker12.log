@@ -1,0 +1,584 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'fr' Physical Memory: 16158 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Programme\Unity\2021.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+D:/Projet/TimeOver/TimeOver.Unity
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+63544
+Successfully changed project path to: D:/Projet/TimeOver/TimeOver.Unity
+D:/Projet/TimeOver/TimeOver.Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 58.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path D:/Programme/Unity/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projet/TimeOver/TimeOver.Unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'D:/Programme/Unity/2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programme/Unity/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programme/Unity/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programme/Unity/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002542 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.684 seconds
+Domain Reload Profiling:
+	ReloadAssembly (685ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (512ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (128ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.378 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1379ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1131ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (698ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (510ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (55.7 KB). Loaded Objects now: 2767.
+Memory consumption went from 107.0 MB to 107.0 MB.
+Total: 4.584600 ms (FindLiveObjects: 0.501700 ms CreateObjectMapping: 0.316700 ms MarkObjects: 3.688800 ms  DeleteObjects: 0.076300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 186874.229252 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_127.asset
+  artifactKey: Guid(c1a00f79872169648b8c0b7c88cbe777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_127.asset using Guid(c1a00f79872169648b8c0b7c88cbe777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a1e74aa064669a0396596e6a66838e') in 0.061188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_376.asset
+  artifactKey: Guid(5d7e40fd2af4e8b40a579b544b949fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_376.asset using Guid(5d7e40fd2af4e8b40a579b544b949fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31370abb24048e7eca352d95b3001614') in 0.009077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_416.asset
+  artifactKey: Guid(e3ac97af5e04035459d2e25de84c8195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_416.asset using Guid(e3ac97af5e04035459d2e25de84c8195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46dbe8c54e58c1b28e5e7e8000490803') in 0.007157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_316.asset
+  artifactKey: Guid(2e8b832423fbe1d45ba466e5474fe576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_316.asset using Guid(2e8b832423fbe1d45ba466e5474fe576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992a0483a9f5a1770f4167f1c6a41680') in 0.008452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_336.asset
+  artifactKey: Guid(6249d6505a9125f47a565aa752c21218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_336.asset using Guid(6249d6505a9125f47a565aa752c21218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1474de1c670fe4eb562e07b0e2faf90f') in 0.008089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_258.asset
+  artifactKey: Guid(b5af3a8bd7e5f434ea7adb73f4e61b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_258.asset using Guid(b5af3a8bd7e5f434ea7adb73f4e61b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5fa9a9cab7fe5cec1e23a856b0b3bd') in 0.007860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_263.asset
+  artifactKey: Guid(9661238962fa22a4884c9e60b1259950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_263.asset using Guid(9661238962fa22a4884c9e60b1259950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5f74162dd78290903a6565af24c0ac') in 0.008548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_291.asset
+  artifactKey: Guid(44c3316d54d715c4aa314242399c3026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_291.asset using Guid(44c3316d54d715c4aa314242399c3026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e1b4055cdbdd6bededdc004232cc13') in 0.007776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_390.asset
+  artifactKey: Guid(c8e5980d65cd6a14795c6f487b23b649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_390.asset using Guid(c8e5980d65cd6a14795c6f487b23b649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087d20bf7d8e621e10e038e6893f9c57') in 0.006627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_448.asset
+  artifactKey: Guid(056107ef8fde8a74dbcacb4918dc1417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_448.asset using Guid(056107ef8fde8a74dbcacb4918dc1417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4bb24d5c9613d879569e7b64de2e33') in 0.008224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_378.asset
+  artifactKey: Guid(49bd3b22d79f70f4496a85784dd7ce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_378.asset using Guid(49bd3b22d79f70f4496a85784dd7ce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e3f213e407221ef33a4c35eeba4f2e') in 0.006534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_344.asset
+  artifactKey: Guid(8b08181fd3376de44a8dca94be3e8492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_344.asset using Guid(8b08181fd3376de44a8dca94be3e8492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280f9300e490535dc6dfb10a076cf33c') in 0.008388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_343.asset
+  artifactKey: Guid(97ee2ea5467040a448b873c714364ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_343.asset using Guid(97ee2ea5467040a448b873c714364ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b886076e6031973ae6b241671965470') in 0.006190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. background layer_186.asset
+  artifactKey: Guid(18ccbb57a90cc8748a64c59bbddd809f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. background layer_186.asset using Guid(18ccbb57a90cc8748a64c59bbddd809f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4107f6920f04872ca3b91d01f9f42f37') in 0.008828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_320.asset
+  artifactKey: Guid(e0bbd93dfed05c44d9fd9ece5f5a0046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_320.asset using Guid(e0bbd93dfed05c44d9fd9ece5f5a0046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80af99bb727008ade55187cb416ab67') in 0.006251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_82.asset
+  artifactKey: Guid(7004041c499ece749a9ca36f1a3ea20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_82.asset using Guid(7004041c499ece749a9ca36f1a3ea20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ae1b1b777d7a005b829e5e1a118195') in 0.006280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_353.asset
+  artifactKey: Guid(f2f440b356d825640a8402e8ff52975e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_353.asset using Guid(f2f440b356d825640a8402e8ff52975e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97df4648e49ae58708948c8aada5f1e0') in 0.009176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_461.asset
+  artifactKey: Guid(47e387c3833415e49ac1c72f786cf9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_461.asset using Guid(47e387c3833415e49ac1c72f786cf9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1fb0d220a12e1f7dbdac4f4c413321') in 0.006782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_2.asset
+  artifactKey: Guid(7fa270ea46318aa4bb403b6790ba4733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_2.asset using Guid(7fa270ea46318aa4bb403b6790ba4733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed24412c54082fc1bc7db77078fb97d') in 0.007755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_175.asset
+  artifactKey: Guid(e174dd9284528d8438802b3359ce0b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_175.asset using Guid(e174dd9284528d8438802b3359ce0b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee599350c00a6c3916b5c1a9893ab9bf') in 0.006710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_438.asset
+  artifactKey: Guid(b8932f38340ebc14bb4118d578c20ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_438.asset using Guid(b8932f38340ebc14bb4118d578c20ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7529671c2f276a4c4462588a47d2bf3d') in 0.006035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_113.asset
+  artifactKey: Guid(f9ec3242b518bd34b9aa7a8d2cd18cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_113.asset using Guid(f9ec3242b518bd34b9aa7a8d2cd18cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fded1c939564046199e28c62efb856c') in 0.005774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_66.asset
+  artifactKey: Guid(ceae932670935a449b6f6a2cc4d79425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_66.asset using Guid(ceae932670935a449b6f6a2cc4d79425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd335c14ea58a2f2d7e688848d7f17508') in 0.006338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. background layer_271.asset
+  artifactKey: Guid(682ee0acf5b6bfd45b76385a3934dfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. background layer_271.asset using Guid(682ee0acf5b6bfd45b76385a3934dfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c37ada2b629d0563d7eb5658133d495') in 0.005822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_212.asset
+  artifactKey: Guid(1380ae118c539a744a9ef2d1417355f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_212.asset using Guid(1380ae118c539a744a9ef2d1417355f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d34ea330a0eb90335498f6b17e4c67') in 0.005850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_302.asset
+  artifactKey: Guid(11540f86a6caaf2449c3eb7a3afc8510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_302.asset using Guid(11540f86a6caaf2449c3eb7a3afc8510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82867f9b9c9ce39e8762208ca8f2535e') in 0.005441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_201.asset
+  artifactKey: Guid(9608f1d0b021b984ca5ecb36b9ebce34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_201.asset using Guid(9608f1d0b021b984ca5ecb36b9ebce34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef8888fd97b0c93f736f4681814d2dd') in 0.005877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_193.asset
+  artifactKey: Guid(fea385220f92d52479b53b437a722708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_193.asset using Guid(fea385220f92d52479b53b437a722708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e746653dafdd1d8102afae229428626a') in 0.006000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_421.asset
+  artifactKey: Guid(df1711bb39b19734ea3b915832eeb72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_421.asset using Guid(df1711bb39b19734ea3b915832eeb72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e59e449716311568261ed6a880a4b95') in 0.008390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_259.asset
+  artifactKey: Guid(b7cf3cb4f80b1a64d9458314462ad545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_259.asset using Guid(b7cf3cb4f80b1a64d9458314462ad545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078005099156fc717021acfb4c88e583') in 0.005796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. background layer_591.asset
+  artifactKey: Guid(6dda9aea70bc6654bb9d60052c135455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. background layer_591.asset using Guid(6dda9aea70bc6654bb9d60052c135455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dbe956d45ba5be2dc2647866efa410') in 0.006591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. background layer_282.asset
+  artifactKey: Guid(38ee75e97cd97cb46ba6602b57ac179c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. background layer_282.asset using Guid(38ee75e97cd97cb46ba6602b57ac179c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935149d123d3adb86fd69cbb303d40d6') in 0.007529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_275.asset
+  artifactKey: Guid(26afb3bac39355541b54e37570b1d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_275.asset using Guid(26afb3bac39355541b54e37570b1d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846b4b1ede12c47753c74cd4b0847a7c') in 0.007443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_283.asset
+  artifactKey: Guid(cc3fe7d573a52ee42a886507046879ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_283.asset using Guid(cc3fe7d573a52ee42a886507046879ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fd1f543bca0570c1bd735ad781a0b5') in 0.007178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_157.asset
+  artifactKey: Guid(def3126f61598e74b88ac78d76f6eae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_157.asset using Guid(def3126f61598e74b88ac78d76f6eae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4887eace76bce6d2d0d6190e994e040f') in 0.006972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_367.asset
+  artifactKey: Guid(cf6b85cb63dad8247b1dd9455aad8683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_367.asset using Guid(cf6b85cb63dad8247b1dd9455aad8683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07420a07b63ad7f7e7db2133e02737b2') in 0.007092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_35.asset
+  artifactKey: Guid(fa36a645a0a8666439b9676be8a9a207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_35.asset using Guid(fa36a645a0a8666439b9676be8a9a207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9402095015d9703e3b9333dcd9a10b9') in 0.008281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_109.asset
+  artifactKey: Guid(1ad13a9e73b99f6419d76fff7b55b15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_109.asset using Guid(1ad13a9e73b99f6419d76fff7b55b15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087f051908a58a4b893f538b6477928d') in 0.008132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_441.asset
+  artifactKey: Guid(6552c605f486baa41b71749303d7d792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_441.asset using Guid(6552c605f486baa41b71749303d7d792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7248d4d0788743c196024f98898393f3') in 0.006374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_292.asset
+  artifactKey: Guid(cb3ec6a491de24f4d96ec0d048a014ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_292.asset using Guid(cb3ec6a491de24f4d96ec0d048a014ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9efc13daf794d2f17b081187d93b31c') in 0.006862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_257.asset
+  artifactKey: Guid(fcf851e2927ebe74e9c6e6bf770471cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_257.asset using Guid(fcf851e2927ebe74e9c6e6bf770471cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c597585e8594fb19993c4f1805db5d6c') in 0.005828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_195.asset
+  artifactKey: Guid(eefacf39e5c2b7943a9c518216cf5ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_195.asset using Guid(eefacf39e5c2b7943a9c518216cf5ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839bd23413e0035e94a4843d1d6c6165') in 0.006981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_374.asset
+  artifactKey: Guid(ec16e9c3aa0a3d048bd1df405f3b5012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_374.asset using Guid(ec16e9c3aa0a3d048bd1df405f3b5012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4729f6322f756de3aed0a154ecbf98') in 0.006458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_1.asset
+  artifactKey: Guid(dfdd35a53e88888479f7a8fef4f2dc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_1.asset using Guid(dfdd35a53e88888479f7a8fef4f2dc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f08ac43d478e15b3c16c67d1fadf55f') in 0.006924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_144.asset
+  artifactKey: Guid(254b785ccd3019046a8bb6f4d9620d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_144.asset using Guid(254b785ccd3019046a8bb6f4d9620d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362e8f07d5e2c5d7026dffbf091934f3') in 0.006085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_193.asset
+  artifactKey: Guid(2f4e5a0e1f454e84fba5325a691dde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_193.asset using Guid(2f4e5a0e1f454e84fba5325a691dde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3e42f07c0ec5a59f3e2d8be05ec2d1') in 0.006511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_307.asset
+  artifactKey: Guid(c70845d0c9b11f84e993c994da1bb926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_307.asset using Guid(c70845d0c9b11f84e993c994da1bb926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8ca3c9e32302a8a8a4687ca3cf60ea') in 0.008689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_13.asset
+  artifactKey: Guid(cf2b0de25096ce44dbd543b2b16cdcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_13.asset using Guid(cf2b0de25096ce44dbd543b2b16cdcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c301e2222868fd588ed5b146ffe424') in 0.006577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_477.asset
+  artifactKey: Guid(9a11cb93aedda2c46a0902181b3af3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_477.asset using Guid(9a11cb93aedda2c46a0902181b3af3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a202e18e98130e3a97a1f6c36c1801') in 0.006247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_210.asset
+  artifactKey: Guid(490d7ae55b9f11349907bad7eb640d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_210.asset using Guid(490d7ae55b9f11349907bad7eb640d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2aa475ef4df19b2d18a3e8e00b281a') in 0.006159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_150.asset
+  artifactKey: Guid(13c3679333e411c48aebd50724ca4af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_150.asset using Guid(13c3679333e411c48aebd50724ca4af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ce67538d5497939123fa275b78c2ba') in 0.007298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. background layer_477.asset
+  artifactKey: Guid(3ca1c16832206b745b03911675d88fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. background layer_477.asset using Guid(3ca1c16832206b745b03911675d88fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0bb1e7d3627d7c8297728aeb7bc15c') in 0.006911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_112.asset
+  artifactKey: Guid(33dc58f730a1bc949b55c55bd6fb7aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_112.asset using Guid(33dc58f730a1bc949b55c55bd6fb7aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71dbb6eddb9d42634a7c8fe6f7d2a3a') in 0.006564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_223.asset
+  artifactKey: Guid(2791ebfa1ad7b2b498f4e4a4da7d8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_223.asset using Guid(2791ebfa1ad7b2b498f4e4a4da7d8dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290e35b6d6cb3402e7799d51a13373c3') in 0.006024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_102.asset
+  artifactKey: Guid(39f179be60e38154bb395ec76b25354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_102.asset using Guid(39f179be60e38154bb395ec76b25354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875e7e36f146f204f3bbbe1b5b257d2f') in 0.006526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_331.asset
+  artifactKey: Guid(157736072bd0d8943b128cce19bc520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_331.asset using Guid(157736072bd0d8943b128cce19bc520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369dc8c926e30fed859ba9719152935a') in 0.006739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. background layer_288.asset
+  artifactKey: Guid(95230fb59f948fd4688175d436b9f033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. background layer_288.asset using Guid(95230fb59f948fd4688175d436b9f033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c78cffcad1890ffb732e352a5aa8e5') in 0.006345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_178.asset
+  artifactKey: Guid(fc6b979ef071eb642a833c1a0a54eba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_178.asset using Guid(fc6b979ef071eb642a833c1a0a54eba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057b33ed929e312ba352f5b577b1e56f') in 0.005983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_61.asset
+  artifactKey: Guid(9369d4673fb886a429eebd2f11e64fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. main platforms_61.asset using Guid(9369d4673fb886a429eebd2f11e64fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7002cb80a9c2b5cf5b891219eb3b2c') in 0.006532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_71.asset
+  artifactKey: Guid(57482cf40a4f89248aca979d8175aea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_71.asset using Guid(57482cf40a4f89248aca979d8175aea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9602c4a54f6eeefb1c5609c378e5d7b8') in 0.006189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_101.asset
+  artifactKey: Guid(ef8b2c68b26050349898765ec267d861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_101.asset using Guid(ef8b2c68b26050349898765ec267d861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b530fea32286d15cebe40ac9eff08e') in 0.006339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_269.asset
+  artifactKey: Guid(144e42874ef7ca54688680aac5eab89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_269.asset using Guid(144e42874ef7ca54688680aac5eab89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138c6fed44636606d377024f4858dd81') in 0.005819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_300.asset
+  artifactKey: Guid(22800df19c7e8e544ba513b0e2fb6465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_300.asset using Guid(22800df19c7e8e544ba513b0e2fb6465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17d0be635711dc491735a046500f16d') in 0.006638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_434.asset
+  artifactKey: Guid(3f21161c34dde634cb3ded2937c24666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_434.asset using Guid(3f21161c34dde634cb3ded2937c24666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f161a4b06c5d2eca8b0481968fee0f70') in 0.006005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_120.asset
+  artifactKey: Guid(d70038f1adb465c438bf2b4a90d7fd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_120.asset using Guid(d70038f1adb465c438bf2b4a90d7fd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410b4f9f76bbeba1b7c608e367e249db') in 0.006674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_457.asset
+  artifactKey: Guid(ce21046ee1e0fd046bc7dd02988bc9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_457.asset using Guid(ce21046ee1e0fd046bc7dd02988bc9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b91522186824134eb229007728ee39') in 0.006438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_473.asset
+  artifactKey: Guid(a9ff12ab9870ea8429bf9ef8276435ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_473.asset using Guid(a9ff12ab9870ea8429bf9ef8276435ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4137d482d4d417fd6eedd678a7b64b') in 0.006627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_423.asset
+  artifactKey: Guid(308bab89cf6944140a0e1eea51365889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Tiles/1. second layer_423.asset using Guid(308bab89cf6944140a0e1eea51365889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994e2d2588a82792ba148f5f9e84929e') in 0.007710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.170313 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Palette/1. background.prefab
+  artifactKey: Guid(1dd178af94c42e14e8656a75b7f8dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Palette/1. background.prefab using Guid(1dd178af94c42e14e8656a75b7f8dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fb379ac6b3d0dec16517aac1d8212d') in 0.494032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.397299 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Palette/1. dark.prefab
+  artifactKey: Guid(1dd178af94c42e14e8656a75b7f8dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Palette/1. dark.prefab using Guid(1dd178af94c42e14e8656a75b7f8dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4010aa4314ddf2566a885d6d1b892826') in 0.443962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.297950 seconds.
+  path: Assets/Sprites/Tilesets/Dark/Palette/2. dark.prefab
+  artifactKey: Guid(9a432e9df42eadf4f8f73670c3d2ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/Palette/2. dark.prefab using Guid(9a432e9df42eadf4f8f73670c3d2ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e647a0e879102ded0305cad0e5935a7') in 0.007553 seconds 

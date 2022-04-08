@@ -321,3 +321,37 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 185885.110763 seconds.
+  path: Assets/Sprites/Tilesets/Dark/1. background layer.png
+  artifactKey: Guid(ed6904838a1cb0a4e90ac161fccb11bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/1. background layer.png using Guid(ed6904838a1cb0a4e90ac161fccb11bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb6dc5b1b989ab9e1fcb62e28bccc69') in 0.229030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilesets/Dark/2. main platforms.png
+  artifactKey: Guid(ba98bace2691455468a42be40225befe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/2. main platforms.png using Guid(ba98bace2691455468a42be40225befe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fa966e1ceaa1c2efca1280c624a6a5') in 0.076865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tilesets/Dark/3. background layer.png
+  artifactKey: Guid(9e06d3e236bcfb3439ebf9af2d67fda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/3. background layer.png using Guid(9e06d3e236bcfb3439ebf9af2d67fda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbfdde5b1cda0e2f9da6ebb01be5a65') in 0.085402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilesets/Dark/3. main platforms.png
+  artifactKey: Guid(220a1135a67bfcc47a55581823e5bcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/3. main platforms.png using Guid(220a1135a67bfcc47a55581823e5bcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36eb73e054776c6867bcc752576c6611') in 0.057973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilesets/Dark/2. background layer.png
+  artifactKey: Guid(d8585c369a47e81468803b92e8ce68d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Dark/2. background layer.png using Guid(d8585c369a47e81468803b92e8ce68d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92eef179b57025f4feb66e25054b492f') in 0.054712 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
