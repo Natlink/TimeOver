@@ -582,3 +582,123 @@ Received Import Request.
   path: Assets/Sprites/Tilesets/Dark/Palette/2. dark.prefab
   artifactKey: Guid(9a432e9df42eadf4f8f73670c3d2ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/Tilesets/Dark/Palette/2. dark.prefab using Guid(9a432e9df42eadf4f8f73670c3d2ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e647a0e879102ded0305cad0e5935a7') in 0.007553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 920.794662 seconds.
+  path: Assets/Sprites/Character/Climb.png
+  artifactKey: Guid(690a9a0d55a0d1f4abd0cb58a34a1934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Climb.png using Guid(690a9a0d55a0d1f4abd0cb58a34a1934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7688bde32446d50beabed05d2c482462') in 0.060275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Character/Death.png
+  artifactKey: Guid(d9a61bf7503832d419dc952fe9935a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Death.png using Guid(d9a61bf7503832d419dc952fe9935a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9c6903111940173c7dbe2f729f2f97') in 0.045681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Character/Run.png
+  artifactKey: Guid(2e82094021859254fba6faf90a033bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Run.png using Guid(2e82094021859254fba6faf90a033bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917d621f07c3db48f71beafc0e81199f') in 0.051006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Character/crouch_idle.png
+  artifactKey: Guid(4e0d6b69a81a45c45868259b0eeeff82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/crouch_idle.png using Guid(4e0d6b69a81a45c45868259b0eeeff82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a20f203316a909e0f38899a436076f') in 0.057735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Character/Pray.png
+  artifactKey: Guid(b7d9c7674ee847f478aaf26ca8c046f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Pray.png using Guid(b7d9c7674ee847f478aaf26ca8c046f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cff60fae7948719ce1dbec2d154d82') in 0.064651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Character/Roll.png
+  artifactKey: Guid(9aad74dc1df22db45b7bcac64da9badf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Roll.png using Guid(9aad74dc1df22db45b7bcac64da9badf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5973d9bc197d64de7338dbd0e28b83cb') in 0.014795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Character/Idle.png
+  artifactKey: Guid(6785c3ff10c5b5f439a7f9c53c8ea9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Idle.png using Guid(6785c3ff10c5b5f439a7f9c53c8ea9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62b617b5fe034ef9e5011eaa19f8cb0') in 0.029124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Character/Hurt.png
+  artifactKey: Guid(8c9f707fc34e8164e959d4541c39fac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Hurt.png using Guid(8c9f707fc34e8164e959d4541c39fac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed651df52f3e34fb2af3a3e04f326c2') in 0.013969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Character/Jump.png
+  artifactKey: Guid(53174285666e17d43ba52cf28cd30117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Jump.png using Guid(53174285666e17d43ba52cf28cd30117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd85d4411350708ae482f0a5fbc52a3') in 0.033376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Character/crouch_attacks.png
+  artifactKey: Guid(3f26bde70f3ed81429deb955a637f087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/crouch_attacks.png using Guid(3f26bde70f3ed81429deb955a637f087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a944fe1e57101e03dda444ae59bbe9') in 0.026368 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.093 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1094ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (437ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (328ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2306 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (27.5 KB). Loaded Objects now: 2932.
+Memory consumption went from 117.4 MB to 117.3 MB.
+Total: 3.072200 ms (FindLiveObjects: 0.231700 ms CreateObjectMapping: 0.130900 ms MarkObjects: 2.686300 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
