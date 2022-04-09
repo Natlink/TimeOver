@@ -6,7 +6,8 @@ public interface IMovingEntity
     /// Value should be scaled between [0, 1]
     /// </summary>
     /// <param name="direction"></param>
-    void Move(float direction);
+    /// <param name="maxSpeed"></param>
+    void Move(float direction, float maxSpeed);
 
     /// <summary>
     /// Aks the entity to jump in Y axis
@@ -15,6 +16,8 @@ public interface IMovingEntity
     /// </summary>
     /// <param name="force"></param>
     void Jump(float force);
+    
+    void DoubleJump(float force);
 
     /// <summary>
     /// Set the entity looking direction by defining the right sprite, animation, or Y rotation

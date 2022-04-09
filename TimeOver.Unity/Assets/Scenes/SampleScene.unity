@@ -276,7 +276,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.3647059, g: 0.40000004, b: 0.3647059, a: 0}
+  m_BackGroundColor: {r: 0.30980393, g: 0.34509805, b: 0.30980393, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -10273,8 +10273,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0722b4f7327526841889987c23855730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 10
-  jumpHeight: 6
   rgbd: {fileID: 859998933}
   spriteRenderer: {fileID: 1595038786}
   groundCollider: {fileID: 859998937}
@@ -10291,6 +10289,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10e7c39c633adf5419f91fee9299fdbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackMovementSpeedFactor: 0.5
+  movementSpeed: 0.8
+  maxMovementSpeed: 8
+  jumpHeight: 6
+  maxDoubleJump: 3
 --- !u!61 &859998937
 BoxCollider2D:
   m_ObjectHideFlags: 0

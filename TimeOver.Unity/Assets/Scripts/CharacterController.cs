@@ -6,6 +6,7 @@ public class CharacterController : MonoBehaviour
     private IMovingEntity entity;
 
     private bool jump;
+    private bool doubleJump;
     private float moveDirection;
     private readonly float inputDelay = 0.3f;
 
@@ -15,6 +16,18 @@ public class CharacterController : MonoBehaviour
     private float lastAttackTime;
     private bool attack;
     private bool groundAttack;
+    private int doubleJumpCount;
+    
+    [Range(0,2)]
+    public float attackMovementSpeedFactor = 0.5f;
+    [Range(0,2)]
+    public float movementSpeed = 1;
+    [Range(1,50)]
+    public float maxMovementSpeed = 10;
+    [Range(1,10)]
+    public float jumpHeight = 20;
+    [Range(0,10)]
+    public int maxDoubleJump;
     
     private void Start()
     {
@@ -31,7 +44,14 @@ public class CharacterController : MonoBehaviour
         var time = Time.time;
         if (Input.GetKeyDown(KeyCode.Z) && time - lastJumpTime > inputDelay)
         {
-            jump = true;
+            if (entity.IsGrounded)
+            {
+                jump = true;
+            }
+            else if (doubleJumpCount < maxDoubleJump)
+            {
+                doubleJump = true;
+            }
             return;
         }
         
@@ -39,10 +59,15 @@ public class CharacterController : MonoBehaviour
 
         if (lastAttackTime + inputDelay > time)
         {
+            moveDirection *= attackMovementSpeedFactor;
             return;
         }
 
-        if (!entity.IsGrounded && Input.GetKeyDown(KeyCode.DownArrow))
+        if (entity.IsGrounded)
+        {
+            doubleJumpCount = 0;
+        }
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             groundAttack = true;
             entity.AirToGroundAttack();
@@ -53,6 +78,7 @@ public class CharacterController : MonoBehaviour
         var rightAttack = moveDirection >= 0 && Input.GetKey(KeyCode.RightArrow);
         if (!leftAttack && !rightAttack) return;
         
+        moveDirection *= attackMovementSpeedFactor;
         nextAttackDirection = rightAttack ? Direction.Right : Direction.Left;
         attack = true;
     }
@@ -69,13 +95,22 @@ public class CharacterController : MonoBehaviour
         
         if (jump)
         {
-            entity.Jump(1);
+            entity.Jump(jumpHeight);
             jump = false;
             lastJumpTime = time;
             return;
         }
 
-        entity.Move(moveDirection);
+        if (doubleJump)
+        {
+            entity.DoubleJump(jumpHeight);
+            lastJumpTime = time;
+            doubleJumpCount++;
+            doubleJump = false;
+            return;
+        }
+
+        entity.Move(moveDirection*movementSpeed, maxMovementSpeed);
         
         if (!attack) return;
         entity.Attacking(nextAttackDirection);

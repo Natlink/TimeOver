@@ -5,9 +5,6 @@ public class CharacterEntity : MonoBehaviour, IMovingEntity
 {
     private static readonly float JUMP_FACTOR = 100;
     
-    public float maxSpeed = 10;
-    public float jumpHeight = 20;
-
     public Rigidbody2D rgbd;
     public SpriteRenderer spriteRenderer;
     public Collider2D groundCollider;
@@ -34,7 +31,7 @@ public class CharacterEntity : MonoBehaviour, IMovingEntity
         groundLayerMask = LayerMask.GetMask("EnvironmentPhysic", "Entity");
     }
 
-    public void Move(float direction)
+    public void Move(float direction, float maxSpeed)
     {
         if (direction == 0)
         {
@@ -71,7 +68,19 @@ public class CharacterEntity : MonoBehaviour, IMovingEntity
         }
         IsGrounded = false;
         animator.SetTrigger(AnimStartJump);
-        rgbd.AddForce(new Vector2(0, force * jumpHeight * JUMP_FACTOR));
+        rgbd.AddForce(new Vector2(0, force * JUMP_FACTOR));
+    }
+    
+    public void DoubleJump(float force)
+    {
+        animator.SetTrigger(AnimStartJump);
+        var velocity = rgbd.velocity;
+        if (velocity.y < 0)
+        {
+            velocity.y = 0;
+            rgbd.velocity = velocity;
+        }
+        rgbd.AddForce(new Vector2(0, force * JUMP_FACTOR));
     }
 
     public void SetDirection(Direction direction)
